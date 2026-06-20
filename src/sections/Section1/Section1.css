@@ -45,6 +45,8 @@ border: none;
 
 @media (min-width: 768px) {
     .section1-content {
-        flex-direction: row;
+        padding-top: 2em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }

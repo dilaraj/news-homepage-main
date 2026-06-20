@@ -1,9 +1,5 @@
 .homepage-master-container {
-  padding: 1.5em;
-
-  display: flex;
-  flex-direction: column;
-  gap: 1.5em;
+  padding: 2em;
 }
 
 .header {
@@ -37,11 +33,22 @@
 
 @media (min-width: 768px) {
 
+  * {
+    box-sizing: border-box;
+  }
+
   .homepage-master-container {
+    height: 100vh;
     padding: 5em;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
   }
 
   .body-container {
+    flex: 1;
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2fr 1fr;
