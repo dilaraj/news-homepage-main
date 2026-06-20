@@ -1,10 +1,12 @@
 .homepage-master-container {
   padding: 2em;
+  position: relative;
 }
 
 .header {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -13,10 +15,28 @@
   width: auto;
 }
 
+.header button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
 .menu-icon {
-  height: 1em;
+  height: 1.5em;
   width: auto;
   cursor: pointer;
+}
+
+.sidenav-container {
+  width: 70%;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  z-index: 10;
+}
+
+.navBar-container {
+  display: none;
 }
 
 .body-container {
@@ -25,16 +45,14 @@
   gap: 3em;
 }
 
-.section1 {
-  display: flex;
-  flex-direction: column ;
-  gap: 0.75em;
-}
-
 @media (min-width: 768px) {
 
   * {
     box-sizing: border-box;
+  }
+
+  .navBar-container {
+    display: block;
   }
 
   .homepage-master-container {
@@ -44,6 +62,10 @@
     display: flex;
     flex-direction: column;
     gap: 1.5em;
+  }
+
+  .header button {
+    display: none;
   }
 
   .body-container {

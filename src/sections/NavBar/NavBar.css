@@ -1,0 +1,19 @@
+.navbar-content {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+
+    
+
+}
+
+.navbar-content a {
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.navbar-content a:hover {
+    color: hsl(5, 85%, 63%);
+}

@@ -1,0 +1,16 @@
+.sidenav-content {
+    height: 100vh;
+    background-color: hsl(36, 100%, 99%);
+    padding: 4em 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.sidenav-content a {
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
