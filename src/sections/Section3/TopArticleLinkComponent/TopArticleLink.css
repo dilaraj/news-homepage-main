@@ -28,6 +28,10 @@
     font-size: 1rem;
 }
 
+.article-title:hover {
+    color: hsl(5, 85%, 63%);
+}
+
 .article-subtitle {
     color: hsl(236, 13%, 42%);
     font-size: 0.75rem;

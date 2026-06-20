@@ -10,6 +10,10 @@
     font-weight: 800;
 }
 
+.headline:hover {
+    color: hsl(35, 70%, 62%);
+}
+
 .subheadline {
     color: hsl(233, 8%, 79%);
     font-size: 1rem;
