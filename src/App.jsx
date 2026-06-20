@@ -1,7 +1,9 @@
 import './App.css'
 import logo from './assets/images/logo.svg'
 import menuIcon from './assets/images/icon-menu.svg'
+
 import Section1 from './sections/Section1/Section1'
+import Section2 from './sections/Section2/Section2'
 
 export default function App() {
   return (
@@ -12,9 +14,7 @@ export default function App() {
       </div>
       <div className="body-container">
         <div className="section1"><Section1/></div>
-        <div className="section2">
-          section2
-        </div>
+        <div className="section2"><Section2/></div>
         <div className="section3">section3</div>
       </div>
     </div>

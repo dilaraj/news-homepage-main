@@ -1,0 +1,16 @@
+.article-link-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    cursor: pointer;
+}
+
+.headline {
+    color: hsl(0, 0%, 100%);
+    font-weight: 800;
+}
+
+.subheadline {
+    color: hsl(233, 8%, 79%);
+    font-size: 1rem;
+}

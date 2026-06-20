@@ -24,10 +24,9 @@
 }
 
 .body-container {
-}
-
-* {
-  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
 }
 
 .section1 {
@@ -37,10 +36,15 @@
 }
 
 @media (min-width: 768px) {
+
+  .homepage-master-container {
+    padding: 5em;
+  }
+
   .body-container {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
   }
 
   .section1 {

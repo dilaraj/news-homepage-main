@@ -1,0 +1,22 @@
+.section2-container {
+    padding: 1.5em;
+    background-color: hsl(240, 100%, 5%);
+}
+
+.header {
+    padding-bottom: 1em;
+    color: hsl(35, 77%, 62%);
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.article-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.line {
+    border-top: 1px solid hsl(233, 8%, 79%);
+}
